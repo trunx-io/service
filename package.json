@@ -1,0 +1,27 @@
+{
+  "name": "@trunx-io/service",
+  "description": "Backend Service for Trunx-IO Wallet",
+  "version": "1.0.0",
+  "author": "Andrew Chaney (netuoso) @netuoso",
+  "main": "service.js",
+  "keywords": [
+    "trunx-io",
+    "wallet",
+    "crypto",
+    "database"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "service": "node service.js"
+  },
+  "dependencies": {
+    "cryptr": "^6.0.2",
+    "lowdb": "^1.0.0",
+    "node-ipc": "^9.1.3",
+    "uuid": "^8.3.2"
+  },
+  "repository": "@trunx-io/service",
+  "bin": {
+    "service": "./service.js"
+  }
+}
